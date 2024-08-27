@@ -1,0 +1,23 @@
+{
+  "name": "back-serv",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "bin": {
+    "run-forever": "./cli/index.js"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "forever": "^4.0.3"
+  }
+}
